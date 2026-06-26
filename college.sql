@@ -1,6 +1,4 @@
 CREATE DATABASE college;
-CREATE DATABASE college;
-
 USE college;
 
 CREATE TABLE student (
@@ -8,3 +6,6 @@ CREATE TABLE student (
    name VARCHAR(50),
    age INT NOT NULL
    );
+   
+   INSERT INTO students VALUES (1, "Buggu", 21);
+   INSERT INTO students VALUES (2, "duggu", 22);
